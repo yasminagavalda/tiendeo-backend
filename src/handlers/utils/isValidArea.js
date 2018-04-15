@@ -1,4 +1,7 @@
 module.exports = (area) => {
+	if (area==='') {
+		return false;
+	}
 	let areaArray = area.split(' ');
 	if (areaArray.length!==2) {
 		return false;

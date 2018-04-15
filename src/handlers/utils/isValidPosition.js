@@ -1,4 +1,7 @@
 module.exports = (position, isFirst) => {
+	if (position==='') {
+		return false;
+	}
 	if (position==0 && !isFirst) {
 		return true;
 	}
